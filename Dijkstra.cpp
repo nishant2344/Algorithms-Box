@@ -74,9 +74,9 @@ int main() {
     };
 
     char srcChar, destChar;
-    cout << "Enter SHOOLINI BLOCK source node (A-E): ";
+    cout << "Enter the starting point source node (A-E): ";
     cin >> srcChar;
-    cout << "Enter SHOOLINI BLOCK destination node (A-E): ";
+    cout << "Enter the destination node (A-E): ";
     cin >> destChar;
 
     int src = srcChar - 'A';
